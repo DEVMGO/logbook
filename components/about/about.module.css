@@ -1,0 +1,50 @@
+.about{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    padding: 2rem 4rem;
+    margin: 3rem 0;
+}
+
+.about > div{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}
+
+.about > div > span{
+    position: relative !important;
+    width: 100% !important;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.about h2{
+    color: #fff;
+}
+
+.about p{
+    color: #fff;
+    text-align: justify;
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .about{
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+    .about > div{
+        justify-content: center;
+    }
+    .about p{
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align-last: center;
+    }
+}

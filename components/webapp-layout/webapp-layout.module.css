@@ -1,0 +1,49 @@
+.main {
+    padding: revert;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: url(../../public/images/auth/cloud.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #1a1a1b;
+}
+
+.profile {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    left: 1rem;
+    top: .5rem;
+}
+
+.img-wrapper {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid #3c3e3c;
+}
+
+.img-wrapper span {
+    position: relative !important;
+}
+
+.info p {
+    text-align: center;
+    color: #c4c4c4;
+    font-size: .6rem;
+}
+
+.info .level {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: .8rem !important;
+}
+
+@media (max-width: 768px) {
+    .profile {
+        display: flex;
+    }
+}

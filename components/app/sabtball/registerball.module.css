@@ -1,0 +1,236 @@
+.auth {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: url(../../../public/images/auth/cloud.png) no-repeat; */
+    background-size: cover;
+    background-position: center center;
+    /* background-color: black; */
+    margin-bottom: 10rem;
+}
+
+.auth p {
+    width: 100%;
+    text-align: justify;
+    color: #fff !important;
+    font-size: 0.8rem;
+}
+
+.auth h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+.auth hr {
+    width: 100%;
+    height: -0.1rem;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+.tab {
+    position: relative;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 500px) {
+    .tab {
+        max-width: 245px;
+    }
+}
+
+.box_image_user {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    background: #3f3f3f;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.box_image_user span {
+    position: absolute !important;
+}
+
+.image_user {
+    position: relative !important;
+    width: 9rem !important;
+    height: 9rem !important;
+    border-radius: 50% !important;
+    overflow: hidden;
+    border: 0.2rem solid #80ff00;
+}
+
+.login-btn {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin: 1.5rem 0;
+}
+
+.controll_upload {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgba(196, 196, 196, 0.04);
+    padding: 0.9rem 0.5rem;
+    color: rgba(255, 255, 255, 0.69);
+    border: 1px solid #707070;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+}
+
+.controll_upload span {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+.controll_upload input {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0.4rem;
+    width: 5rem;
+    z-index: 2;
+    opacity: 0;
+}
+
+.controll_upload button {
+    position: absolute;
+    left: 0.4rem;
+    background-color: #80ff00;
+    z-index: 1;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+}
+
+.controll_date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgba(196, 196, 196, 0.04);
+    padding: 0.9rem 0.5rem;
+    color: rgba(255, 255, 255, 0.69);
+    border: 1px solid #707070;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    margin-bottom: 1rem !important;
+}
+
+.controll_date input {
+    background: transparent;
+    color: #fff;
+}
+
+.controll_date input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #fff !important;
+}
+
+.controll_date span {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+.controllers {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.controllers input {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.04);
+    padding: 0.9rem 0.3rem;
+    color: rgba(255, 255, 255, 0.69);
+    border: 1px solid #707070;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+}
+
+.controllers select {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.04);
+    padding: 0.9rem 0.3rem;
+    color: rgba(255, 255, 255, 0.69);
+    border: 1px solid #707070;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+}
+
+.controllers select svg {
+    background-color: #80ff00 !important;
+    color: aqua !important;
+}
+
+.controllers > svg {
+    position: absolute;
+    z-index: 9;
+    right: 14px;
+    top: 13px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+.controllers input::placeholder {
+    color: rgba(255, 255, 255, 0.69);
+}
+
+.controllers > span {
+    position: absolute;
+    left: 1rem;
+    top: 13px;
+    cursor: pointer;
+}
+
+.completp p {
+    text-align: center;
+    color: #fff !important;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+}
+
+.options {
+    background-color: #1a1a1a !important;
+    color: #fff;
+    padding: 1.5rem 0 !important;
+    margin: 1.5rem 0 !important;
+    border-bottom: 0.3rem solid #fff !important;
+    height: 4rem !important;
+    cursor: pointer !important;
+}
+
+.optionss {
+    border-bottom: 0.3rem solid #57e207;
+    background-color: #1a1a1a !important;
+    color: #fff;
+    padding: 1.5rem 0 !important;
+    margin: 1.5rem 0 !important;
+}

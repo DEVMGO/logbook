@@ -1,0 +1,22 @@
+/*
+.card{
+    background: linear-gradient(105.87deg, rgba(255, 255, 255, 0.14) 3.04%, rgba(255, 255, 255, 0) 96.05%);
+    backdrop-filter: blur(80px);
+    border-radius: 8px;
+    position: relative;
+    border: solid 1px transparent;
+    background-image: linear-gradient(to left, #1e1e1e, #5a5a5a), linear-gradient(to bottom right, #fbfbfb, #80e14f);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}*/
+
+.card{
+    background: linear-gradient(
+            135deg
+            ,#ffffff 0%,#4e5a66 20%,#4e5a66 75%,#7acb5a 100%);
+    -webkit-backdrop-filter: blur(80px);
+    backdrop-filter: blur(81px);
+    border-radius: 8px;
+    position: relative;
+    padding: 1px;
+}

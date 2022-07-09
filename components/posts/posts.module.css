@@ -1,0 +1,12 @@
+.posts{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 2rem 4rem;
+}
+
+@media (max-width: 768px) {
+    .posts{
+        padding: 1rem;
+    }
+}

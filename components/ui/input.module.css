@@ -1,0 +1,16 @@
+.input{
+    margin-bottom: .6rem;
+}
+
+.input input{
+    background: rgba(196, 196, 196, 0.04);
+    padding: 0.5rem 2rem;
+    color: #fff;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    backdrop-filter: blur(24px);
+}
+
+.input input::placeholder{
+    color: #fff;
+}

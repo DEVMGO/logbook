@@ -1,0 +1,230 @@
+.bodyrecords {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: clamp(18rem, 65vw, 100rem); */
+    width: 100%;
+}
+
+.box_map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 0.5rem;
+    padding: 1rem clamp(0.5rem, 4vw, 4rem);
+    box-shadow: 0 0 13px rgb(255 255 255 / 29%) inset;
+}
+
+.box_map img {
+    max-width: 80% !important;
+}
+
+.box_image {
+    position: relative;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    height: 250px;
+}
+
+.box_image img {
+    max-width: 80%;
+}
+
+.box_datafly {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.box_itemdata {
+    font-size: .75rem;
+    text-align: center;
+    color: #c4c4c4;
+    margin-bottom: clamp(0.5rem, 2vw, 2rem);
+}
+
+.itemdata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemdata svg {
+    width: clamp(0.4rem, 3vw, 1rem);
+}
+
+.bodyrecords h5 {
+    font-size: clamp(0.6rem, 1.5vw, 1rem);
+    margin-right: 0.5rem;
+}
+
+.controllers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.controllersss {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.box_input {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #57e207;
+    padding: .3rem;
+}
+
+.box_inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #57e207;
+    padding: .3rem;
+    max-height: 2.5rem;
+}
+
+.item_box_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controllersss label,
+.controllers label {
+    color: #fff;
+    font-size: clamp(0.6rem, 1.5vw, 1rem);
+    margin-bottom: 0.5rem;
+}
+
+.controllers input {
+    width: 100%;
+    padding: clamp(0.85rem, 2vw, 0.95rem) clamp(0.4rem, 3vw, 1rem);
+    color: #fff;
+    background-color: transparent;
+    overflow: hidden;
+    outline: #80ff00;
+    font-size: clamp(0.4rem, 1.5vw, .8rem);
+}
+
+.controllersss select,
+.controllers select {
+    width: auto;
+    max-height: 3.1rem;
+    padding: .5rem 0;
+    color: #fff;
+    background: transparent;
+    overflow: hidden;
+    outline: none;
+    font-size: clamp(0.4rem, 1.5vw, .8rem);
+}
+
+.controllers input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    padding: 0px;
+    margin: 0px;
+}
+
+.options {
+    background-color: #1a1a1a !important;
+    color: #fff;
+    padding: 1.5rem 0 !important;
+    margin: 1.5rem 0 !important;
+    border-bottom: 0.3rem solid #fff !important;
+    height: 4rem !important;
+    cursor: pointer !important;
+}
+
+.optionss {
+    border-bottom: 0.3rem solid #57e207;
+    background-color: #1a1a1a !important;
+    color: #fff;
+    padding: 1.5rem 0 !important;
+    margin: 1.5rem 0 !important;
+}
+
+.controllers > svg {
+    position: absolute;
+    z-index: 9;
+    cursor: pointer;
+    color: #fff;
+    pointer-events: none;
+    width: .75rem;
+}
+
+.box_input {
+    max-height: 2.5rem;
+}
+
+.item_box_input svg ,
+.box_input svg {
+    width: clamp(0.6rem, 3vw, 1rem) !important;
+}
+
+.submit_body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.button {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    font-size: .65rem;
+    max-height: 2rem;
+    margin: 0;
+    padding: .5rem 1rem;
+}
+
+.button svg {
+    margin-left: 0.3rem;
+    width: clamp(.4rem, 3vw, 1.2rem) !important;
+}
+
+.input,
+.select_city,
+.select_location {
+    border: none;
+}
+
+.input {
+    max-height: 1.1rem !important;
+}
+
+@media screen and (max-width: 900px) {
+    .submit_change {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .button {
+        display: grid;
+        margin: 0 !important;
+        padding: 0 0.3rem !important;
+        border-radius: .3rem !important;
+    }
+    .button span {
+        display: none;
+    }
+    .button svg {
+        margin: 0 !important;
+    }
+}

@@ -1,0 +1,14 @@
+.img-wrapper span{
+    position: relative !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+
+.title{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.time{
+    color: #fff;
+}

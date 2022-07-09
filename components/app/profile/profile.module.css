@@ -1,0 +1,281 @@
+.profile {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 7rem;
+}
+
+.tab {
+    position: relative;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 500px) {
+    .tab {
+        max-width: 245px;
+    }
+}
+
+
+.box_image_user {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    background: #3f3f3f;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+.box_image_user span {
+    position: absolute !important;
+}
+
+.box_image_user input {
+    z-index: 100;
+    font-family: IRANSansDN;
+}
+
+.image_user {
+    position: relative !important;
+    width: 9rem !important;
+    height: 9rem !important;
+    border-radius: 50% !important;
+    overflow: hidden;
+    border: 0.2rem solid #80ff00;
+}
+
+.btn_back {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    transition: .3s;
+}
+
+.btn_back:hover {
+    text-shadow: 0 1px 13px rgb(231, 236, 232);
+}
+
+.image_arrow {
+    width: 1.8rem !important;
+    margin-right: 0.4rem !important;
+}
+
+.span_image {
+    background-color: black;
+    border-radius: 50%;
+    padding: .8rem 1rem;
+}
+.image_signup {
+    position: relative !important;
+    width: 7rem !important;
+    height: 7rem !important;
+    border-radius: 50% !important;
+    overflow: hidden;
+    color: #707070;
+}
+
+.box_upload {
+    position: absolute;
+    right: 1rem;
+    bottom: .5rem;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: #fff solid .15rem;
+}
+
+.btn_upload {
+    position: absolute;
+    width: 2.7rem;
+    height: 2.7rem;
+    background: #00DD00;
+    color: #fff;
+    font-size: 1.5rem;
+    left: -.6.5rem;
+    top: -.45rem;
+}
+
+.box_upload input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.login-btn {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin: 1.5rem 0;
+}
+
+.controllers {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.controllers input {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.04);
+    padding: 0.9rem 3rem;
+    color: #fff;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    font-family: IRANSansDN;
+}
+
+.controllers > svg:first-child {
+    position: absolute;
+    z-index: 2;
+    right: 14px;
+    top: 14px;
+    cursor: pointer;
+    color: #fff;
+    width: 1rem;
+}
+
+.controllers > svg:last-child {
+    position: absolute;
+    z-index: 2;
+    left: 14px;
+    top: 14px;
+    cursor: pointer;
+    width: 1rem;
+}
+
+.controllers > svg:last-child path {
+    position: absolute;
+    z-index: 2;
+    left: 14px;
+    top: 13px;
+    cursor: pointer;
+    stroke: #80ff00;
+}
+
+.controllers input::placeholder {
+    color: #fff;
+}
+
+.controllers > span {
+    position: absolute;
+    left: 1rem;
+    top: 13px;
+    cursor: pointer;
+}
+
+.completp p {
+    text-align: center;
+    color: #fff !important;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+}
+
+.options {
+    background-color: #1a1a1a !important;
+    color: #fff;
+    padding: 1.5rem 0 !important;
+    margin: 1.5rem 0 !important;
+    border-bottom: 0.3rem solid #fff !important;
+    height: 4rem !important;
+    cursor: pointer !important;
+}
+
+.optionss {
+    border-bottom: 0.3rem solid #57e207;
+    background-color: #1a1a1a !important;
+    color: #fff;
+    padding: 1.5rem 0 !important;
+    margin: 1.5rem 0 !important;
+}
+
+.timer {
+    top: 3px !important;
+    left: 0.4rem !important;
+    background: #c4c4c4;
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.5rem;
+    top: 0.4rem !important;
+    font-size: 0.9rem;
+}
+
+.timer button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.span_image {
+    background-color: black;
+    border-radius: 50%;
+    padding: .8rem 1rem;
+}
+.image_signup {
+    position: relative !important;
+    width: 7rem !important;
+    height: 7rem !important;
+    border-radius: 50% !important;
+    overflow: hidden;
+    color: #707070;
+}
+
+.box_upload {
+    position: absolute;
+    right: 1rem;
+    bottom: .5rem;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: #fff solid .15rem;
+}
+
+.btn_upload {
+    position: absolute;
+    width: 2.7rem;
+    height: 2.7rem;
+    background: #00DD00;
+    color: #fff;
+    font-size: 1.5rem;
+    left: -.6.5rem;
+    top: -.45rem;
+}
+
+.box_upload input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}

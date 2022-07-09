@@ -1,0 +1,33 @@
+.chart2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    min-height: 300px;
+    max-height: 500px;
+    margin-top: 2rem;
+    
+}
+
+.bodychart {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodychart p,
+.bodychart span {
+    color: #fff;
+    font-size: clamp( .4rem, 1vw, .9rem);
+}
+
+.bodychart .chart {
+    width: clamp( 2rem, 7vw, 7rem);
+    /* height: 85px; */
+    display: flex;
+    /* min-height: 10px; */
+    border-radius: .5rem .5rem 0 0;
+    background: linear-gradient(180deg, #80FF00 14.11%, #00FF00 122.2%);
+}

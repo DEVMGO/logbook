@@ -1,0 +1,36 @@
+.social{
+    position: absolute;
+    right: 3rem;
+    top: -3rem;
+}
+
+.social ul{
+    background: linear-gradient(79.64deg, #80FF00 12.67%, #00FF00 140.45%);
+    box-shadow: inset -6px -6px 8px rgba(0, 0, 0, 0.28), inset 8px 8px 11px #BEFF7C;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.social ul li{
+    display: block;
+    margin: .5rem 0;
+}
+
+.social ul li a{
+    font-size: 1.7rem;
+}
+
+@media (max-width: 768px) {
+    .social{
+        right: 1rem;
+    }
+    .social ul{
+        padding: .2rem;
+    }
+    .social ul li{
+        margin: 0;
+    }
+    .social ul li a{
+        font-size: 1rem;
+    }
+}

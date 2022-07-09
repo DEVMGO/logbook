@@ -1,0 +1,126 @@
+.footer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem 0 2rem;
+    flex-direction: column;
+}
+
+.footer-wrapper{
+    background: #101010;
+    border-radius: 10px;
+    padding: 2rem 4rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer-wrapper__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-wrapper__info img{
+    width: 188px;
+}
+
+.footer-wrapper__newsletter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.footer-wrapper__newsletter h2{
+    color: #fff;
+    margin: 0;
+    font-size: 18px;
+}
+
+.footer-wrapper__newsletter p{
+    color: #fff;
+    margin: 0;
+    font-size: 12px;
+}
+
+.controls{
+    background: #101010;
+    box-shadow: inset 3px 2px 5px rgb(111 105 105 / 25%), inset -3px -2px 9px rgb(102 102 102 / 25%);
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.controls input{
+    color: #fff;
+    padding-right: 20px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.controls input::placeholder{
+    color: #fff;
+}
+
+.controls .btn{
+    margin: 6px 14px;
+    padding: 6px 19px;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.copy-right{
+    text-align: center;
+    color: #fff;
+}
+
+.copy-right a{
+    margin: 0.4rem;
+}
+
+@media (max-width: 768px) {
+    .footer{
+        padding: 1rem;
+    }
+    .footer-wrapper{
+        padding: 1rem 0;
+    }
+    .footer-wrapper__info{
+        flex-direction: column;
+    }
+    .footer-wrapper__info .nav{
+        order: 1;
+        justify-content: center;
+        margin: 2rem 0;
+    }
+    .footer-wrapper__newsletter h2{
+        font-size: .8rem;
+        font-weight: 300;
+    }
+    .footer-wrapper__newsletter p{
+        font-size: .7rem;
+    }
+    .controls .btn{
+        margin: 5px 5px;
+        padding: 6px 9px;
+    }
+    .order-1{
+        display: flex;
+        order: 1;
+    }
+
+    .nav-m{
+        margin: 1rem 0;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+    }
+}

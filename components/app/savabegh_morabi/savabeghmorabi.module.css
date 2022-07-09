@@ -1,0 +1,63 @@
+.savabegh_morabi {
+    position: relative;
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+.savabegh_morabi .tab {
+    position: relative;
+    width: clamp(18rem, 50vw, 100rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.savabegh_morabi .tab .nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.savabegh_morabi .tab .nav li {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.7rem;
+    margin-bottom: 2rem;
+    transition: 0.4s;
+    color: #707070;
+    font-size: clamp(.5rem, 2vw, 1.2rem);
+}
+
+.savabegh_morabi .tab .nav li:nth-child(1) {
+    border: 1px solid #fff;
+    border-radius: 0 1.3rem 0 0;
+}
+
+.savabegh_morabi .tab .nav li:nth-child(2) {
+    border: 1px solid #fff;
+}
+
+.savabegh_morabi .tab .nav li:nth-child(3) {
+    border: 1px solid #fff;
+    border-radius: 1.3rem 0 0 0;
+}
+
+
+.showsignup {
+    color: #101010 !important;
+    background-color: #5EFF01 !important;
+}
+
+.hidesignup {
+    color: #fff !important;
+    background-color: #232323 !important;
+}

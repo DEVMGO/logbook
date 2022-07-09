@@ -1,0 +1,31 @@
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > a{
+    display: flex;
+}
+
+.logo > a > span > span{
+    display: none !important;
+}
+
+.logo span{
+    position: unset !important;
+}
+
+.logo span img{
+    width: 250px !important;
+}
+
+@media (max-width: 768px) {
+    .logo{
+        width: 33%;
+    }
+    .logo span img{
+        width: 100% !important;
+    }
+}

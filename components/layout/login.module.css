@@ -1,0 +1,57 @@
+.login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.btn{
+    background: transparent;
+    border: 1px solid #80FF00;
+    border-radius: 8px;
+    color: #80FF00;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn span{
+    color: #80FF00;
+    font-family: IRANSansDN;
+    margin: 0 .3rem;
+}
+
+.mobile-txt{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .signup{
+        display: none;
+    }
+    .login{
+        width: 33%;
+    }
+    .btn{
+        padding: .2rem;
+        font-size: .7rem;
+    }
+    .mobile-txt{
+        display: block;
+        color: #80FF00;
+        font-family: IRANSansDN;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn::before{
+        content: "";
+        background: url(../../public/images/login-icon.png) no-repeat;
+        position: absolute;
+        right: 17px;
+        width: 24px;
+        height: 24px;
+        display: block;
+    }
+}

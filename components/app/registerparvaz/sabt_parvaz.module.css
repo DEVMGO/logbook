@@ -1,0 +1,190 @@
+.sabt_parvaz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 385px;
+}
+@media screen and (max-width: 500px) {
+    .sabt_parvaz {
+        width: 262px;
+    }
+    .parvaz {
+        display: grid !important;
+        width: 100%;
+    }
+    .certificate,
+    .parvaz input {
+        width: 100% !important;
+    }
+}
+
+.parvaz {
+    display: flex;
+}
+
+.controllerss,
+.controllers {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.controllerss:after {
+    position: absolute;
+    content: "<";
+    font: 17px "Consolas", monospace;
+    color: #101010;
+    background-color: #80ff00;
+    font-weight: 900;
+    font-size: 16px;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    left: 0.8rem;
+    top: 55%;
+    pointer-events: none;
+}
+
+.controllerss select {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.04);
+    padding: 0.7rem 0.3rem;
+    color: #fff;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+.controllerss select::-ms-expand {
+    display: none;
+}
+
+.options {
+    background-color: #1a1a1a !important;
+    color: #fff;
+    padding: 1.5rem 0 !important;
+    margin: 1.5rem 0 !important;
+    border-bottom: 0.3rem solid #fff !important;
+    height: 4rem !important;
+    cursor: pointer !important;
+}
+
+.controllerss label,
+.controllers label {
+    color: #fff;
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.controllers input {
+    /* width: 100%; */
+    height: 2.7rem;
+    background: rgba(196, 196, 196, 0.04);
+    padding: 0.3rem;
+    color: #fff;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+}
+
+.number_parvaz {
+    width: 4rem;
+    margin-left: 1rem;
+}
+
+.date_parvaz {
+    width: 9rem;
+    margin-left: 1rem;
+}
+
+.certificate {
+    width: 9rem !important;
+}
+
+.location_fly,
+.databall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.databall span {
+    width: 9rem;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.databall p {
+    width: 90%;
+    height: 0;
+    opacity: 0.5;
+    padding: 0;
+    border-bottom: 1px solid #c4c4c4;
+}
+.location_fly span {
+    width: 15rem;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.location_fly p {
+    width: 83%;
+    height: 0;
+    opacity: 0.5;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin: 1.5rem 0;
+}
+.login-btn svg {
+    font-size: 1.3rem;
+    margin-left: 0.3rem;
+}
+
+.description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(196, 196, 196, 0.04);
+    border: 1px solid #707070;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    color: #c4c4c4;
+    font-size: .77rem;
+    text-align: justify;
+}
+
+.timeparvaz,
+.titletozih,
+.description,
+.pasenjer {
+    display: none;
+}

@@ -1,0 +1,39 @@
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    height: fit-content;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 1rem;
+    transition: .7s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li:hover{
+    color: #00DD00;
+}
+
+.nav ul li.active{
+    color: #00DD00 !important;
+}
+
+@media (max-width: 768px) {
+    .nav{
+        justify-content: center;
+    }
+    .nav ul li{
+        font-size: .8rem;
+        margin: 0 .5rem;
+    }
+}

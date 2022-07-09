@@ -1,0 +1,76 @@
+.left-box::before{
+    content: "";
+    position: absolute;
+    background: url(../../public/images/t-arrow.png) no-repeat;
+    background-size: cover;
+    width: 113px;
+    height: 104px;
+    top: 2rem;
+    right: 2rem;
+}
+
+.right-box::after{
+    content: "";
+    position: absolute;
+    background: url(../../public/images/b-arrow.png) no-repeat;
+    background-size: cover;
+    width: 88px;
+    height: 73px;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.center-box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-right: 5rem;
+}
+
+.center-box h2{
+    color: #00DD00;
+    margin-bottom: 1.5rem;
+}
+
+.center-box .link{
+    margin-bottom: 1rem;
+}
+
+.center-box .link a{
+    color: #fff;
+    position: relative;
+    right: 2.5rem;
+    top: 0.2rem;
+}
+
+.center-box .link span{
+    position: absolute;
+}
+
+.center-box ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.center-box ul li a{
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .center-box{
+        padding: 0;
+    }
+    .center-box ul li{
+        margin: .7rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .center-box{
+        padding: 0;
+    }
+    .center-box ul li{
+        margin: .7rem;
+    }
+}

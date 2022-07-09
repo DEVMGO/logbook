@@ -1,0 +1,168 @@
+.auth {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../../public/images/auth/cloud.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
+}
+
+@media screen and (max-width: 500px) {
+    .tab {
+        max-width: 245px;
+    }
+}
+
+.tab {
+    position: relative;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.tab .nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.tab .nav li {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    border-bottom: 0.15rem solid #707070;
+    cursor: pointer;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    transition: 0.4s;
+    color: #707070;
+}
+
+.tab .nav li:hover {
+    color: #00DD00;
+    border-bottom: 0.15rem solid #00DD00;
+}
+
+.content {
+    position: relative;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_image_user {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    background: #3f3f3f;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.box_image_user span {
+    position: absolute !important;
+}
+
+.box_image_user input {
+    z-index: 100;
+}
+
+.image_user {
+    position: relative !important;
+    width: 9rem !important;
+    height: 9rem !important;
+    border-radius: 50% !important;
+    overflow: hidden;
+    border: 0.2rem solid #80ff00;
+}
+
+.btn_back {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    transition: .3s;
+}
+
+.btn_back:hover {
+    text-shadow: 0 1px 13px rgb(231, 236, 232);
+}
+
+.image_arrow {
+    width: 1.8rem !important;
+    margin-right: 0.4rem !important;
+}
+
+.showsignup {
+    color: #00DD00 !important;
+    border-bottom-color: #00DD00 !important;
+}
+
+.hidesignup {
+    color: #707070 !important;
+    border-bottom-color: #707070 !important;
+}
+
+.span_image {
+    background-color: black;
+    border-radius: 50%;
+    padding: .8rem 1rem;
+}
+.image_signup {
+    position: relative !important;
+    width: 7rem !important;
+    height: 7rem !important;
+    border-radius: 50% !important;
+    overflow: hidden;
+    color: #707070;
+}
+
+.box_upload {
+    position: absolute;
+    right: 1rem;
+    bottom: .5rem;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: #fff solid .15rem;
+}
+
+.btn_upload {
+    position: absolute;
+    width: 2.7rem;
+    height: 2.7rem;
+    background: #00DD00;
+    color: #fff;
+    font-size: 1.5rem;
+    left: -.6.5rem;
+    top: -.45rem;
+}
+
+.box_upload input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}

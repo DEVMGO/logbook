@@ -1,0 +1,128 @@
+.login-btn {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin: 1.5rem 0;
+}
+
+.controllers {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.controllers input {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.04);
+    padding: 0.9rem 3rem;
+    color: #fff;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+}
+
+.controllerss:after {
+    position: absolute;
+    content: "<";
+    font: 17px "Consolas", monospace;
+    color: #101010;
+    background-color: #80ff00;
+    font-weight: 900;
+    font-size: 16px;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    left: 0.8rem;
+    top: 25%;
+    pointer-events: none;
+}
+
+.controllers select {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.04);
+    padding: 0.9rem 3rem;
+    color: #fff;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+}
+
+.controllers select::-ms-expand {
+    display: none;
+}
+
+.controllers > svg {
+    position: absolute;
+    z-index: 9;
+    right: 14px;
+    top: 13px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.controllers input::placeholder {
+    color: #fff;
+}
+
+.controllers > span {
+    position: absolute;
+    left: 1rem;
+    top: 13px;
+    cursor: pointer;
+}
+
+.completp p {
+    text-align: center;
+    color: #fff !important;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+}
+
+.options {
+    background-color: #1a1a1a !important;
+    color: #fff;
+    padding: 1.5rem 0 !important;
+    margin: 1.5rem 0 !important;
+    border-bottom: 0.3rem solid #fff !important;
+    height: 4rem !important;
+    cursor: pointer !important;
+}
+
+.optionss {
+    border-bottom: 0.3rem solid #57e207;
+    background-color: #1a1a1a !important;
+    color: #fff;
+    padding: 1.5rem 0 !important;
+    margin: 1.5rem 0 !important;
+}
+
+.timer {
+    top: 3px !important;
+    left: 0.4rem !important;
+    background: #c4c4c4;
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.5rem;
+    top: 0.4rem !important;
+    font-size: 0.9rem;
+}
+
+.timer button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}

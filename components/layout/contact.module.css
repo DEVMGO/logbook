@@ -1,0 +1,30 @@
+.contact{
+    display: flex;
+    width: 100%;
+}
+
+.contact li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.contact li a{
+    color: #fff;
+}
+
+.contact li a i{
+    color: #fff;
+    margin-left: .5rem;
+}
+
+@media (max-width: 768px) {
+    .contact{
+        justify-content: center;
+    }
+    .contact li{
+        margin: 0 .5rem;
+    }
+    .contact li a{
+        font-size: .8rem;
+    }
+}

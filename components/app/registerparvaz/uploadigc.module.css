@@ -1,0 +1,36 @@
+.upload_igc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box_upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: .5rem;
+    padding: 1rem clamp(.5rem, 4vw, 4rem);
+    box-shadow: 0 0 13px rgb(255 255 255 / 29%) inset;
+}
+
+.box_upload p {
+    color: #fff;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: clamp(.5rem, 4vw, 1rem);
+}
+.box_upload span {
+    margin: -3rem .2rem 1rem .2rem !important;
+}
+.box_upload button {
+    color: #5EFF01;
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}

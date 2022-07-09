@@ -1,0 +1,94 @@
+.login-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.reset-box {
+    margin-top: 3rem;
+}
+
+.reset-pass {
+    color: #fff;
+    font-size: 0.6rem;
+}
+
+.remember-me {
+    display: inline-block;
+    font-size: 0.7rem;
+}
+
+.forgot-pass {
+    color: #fff;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.controllers {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.controllers input {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.04) !important;
+    padding: 0.9rem 3rem;
+    color: #fff;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    outline: none;
+}
+
+.controllers > svg {
+    position: absolute;
+    z-index: 9;
+    right: 14px;
+    top: 13px;
+    cursor: pointer;
+}
+
+.controllers input::placeholder {
+    color: #fff;
+}
+
+.controllers > span {
+    position: absolute;
+    left: 1rem;
+    top: 13px;
+    cursor: pointer;
+}
+
+.forget {
+    font-size: 0.7rem;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.box_remember {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.remember_me {
+    font-size: 0.7rem;
+    color: #fff;
+    padding: 0;
+    text-align: justify;
+}
+.remember {
+    font-size: 0.7rem;
+    color: #fff;
+    padding: 0;
+    text-align: justify;
+    margin-top: 2rem;
+}

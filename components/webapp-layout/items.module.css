@@ -1,0 +1,10 @@
+.items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.items span{
+    display: inline-block;
+    margin-right: 1rem;
+}

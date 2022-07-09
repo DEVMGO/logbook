@@ -1,0 +1,42 @@
+.register_parvaz {
+    position: relative;
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+.tab {
+    position: relative;
+    width: clamp(18rem, 50vw, 100rem);
+    /* width: calc(100% - 10%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tab .nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.tab .nav li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.7rem;
+    margin-bottom: 2rem;
+    transition: 0.4s;
+    color: #707070;
+    font-size: clamp(.5rem, 4vw, 1.3rem);
+    color: #101010 !important;
+    background: linear-gradient(274.91deg, #5EFF01 -0.52%, #00FF00 114.39%) !important;
+    border-radius: 1rem 1rem 0 0;
+}
