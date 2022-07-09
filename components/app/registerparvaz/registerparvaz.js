@@ -15,16 +15,10 @@ const RegisterParvaz = () => {
             <section className={styles.register_parvaz}>
                 <div className={styles.tab}>
                     <ul className={styles.nav}>
-                        <li
-                            onClick={showLogin}
-                            className={signIn ? styles.showsignup : styles.hidesignup}
-                        >
+                        <li onClick={showLogin} className={signIn ? styles.showsignup : styles.hidesignup} >
                             ثبت پرواز
                         </li>
-                        <li
-                            onClick={showSignup}
-                            className={signIn ? styles.hidesignup : styles.showsignup}
-                        >
+                        <li onClick={showSignup} className={signIn ? styles.hidesignup : styles.showsignup} >
                             آپلود IGC
                         </li>
                     </ul>

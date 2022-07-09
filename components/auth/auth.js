@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ImageUser from "../../public/images/profile.png";
 import Arrow from "../../public/images/Icon_arrow_up.svg";
-import Signup from "./signUp";
+import Signup from "./signup";
 import { FaUserAlt } from 'react-icons/fa';
 
 const Auth = () => {

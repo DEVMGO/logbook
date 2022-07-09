@@ -2,12 +2,12 @@ import { Fragment, useState } from "react";
 import { BsBookmarkStar, BsFillTelephoneFill } from 'react-icons/bs';
 import { FaLocationArrow } from 'react-icons/fa';
 import { TiPencil } from 'react-icons/ti';
-import styles from './signup.module.css';
 import UserInput from "../icons/user-input";
 import Lock from "../icons/lock";
 import Mail from "../icons/mail";
 import Button from "../ui/button";
 import Timer from "./timer";
+import styles from './signup.module.css';
 
 const Signup = () => {
 
