@@ -20,7 +20,7 @@ const Auth = () => {
             <section className={styles.auth}>
                 <div className={styles.box_image_user}>
                     {signIn ?
-                        <Image src={ImageUser} className={styles.image_user} />
+                        <Image src={ImageUser} className={styles.image_user} alt="user" />
                         :
                         <>
                             <span className={styles.span_image}>
@@ -63,7 +63,7 @@ const Auth = () => {
 
                 <Link href='/' >
                     <button className={styles.btn_back}>
-                        بازگشت به صفحه اصلی <Image src={Arrow} className={styles.image_arrow} />
+                        بازگشت به صفحه اصلی <Image src={Arrow} className={styles.image_arrow} alt="backbtn" />
                     </button>
                 </Link>
             </section>

@@ -19,7 +19,7 @@ const Profile_ = () => {
                 <div className={styles.tab}>
 
                     <div className={styles.box_image_user}>
-                        <Image src={ImageUser} className={styles.image_user} />
+                        <Image src={ImageUser} className={styles.image_user} alt="user" />
                         <div className={styles.box_upload}>
                             <button className={styles.btn_upload}>+</button>
                             <input type="file" />

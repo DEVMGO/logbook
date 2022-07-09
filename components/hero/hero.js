@@ -32,7 +32,7 @@ const Hero = () => {
                 <div className={`col-2 ${styles['col-right']}`}></div>
                 <div className={`col-8 ${styles.circle}`}>
                     <div className={styles['mobile-wrapper']}>
-                        <Image src={imgPath} layout={"fill"} />
+                        <Image src={imgPath} layout={"fill"} alt="user" />
                     </div>
                 </div>
                 <div className={`col-2 ${styles['col-left']}`}></div>

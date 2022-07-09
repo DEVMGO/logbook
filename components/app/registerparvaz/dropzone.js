@@ -21,7 +21,7 @@ function Dropzone(props) {
         <div className="container">
             <div {...getRootProps({ className:styles['dropzone']})}>
                 <input {...getInputProps()} />
-                <Image src={Folder} />
+                <Image src={Folder} alt="folder" />
                 <p>برای بارگذاری یک فایل را بکشید و رها کنید یا روی
                     <button type="button" onClick={open}>
                         افزودن فایل

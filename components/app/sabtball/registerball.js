@@ -59,7 +59,7 @@ const RegisterBall = () => {
             <section className={styles.auth}>
                 <div className={styles.tab}>
                     <div className={styles.box_image_user}>
-                        <Image src={ImageUser} className={styles.image_user} />
+                        <Image src={ImageUser} className={styles.image_user} alt="user" />
                     </div>
 
                     <h2>ثبت مشخصات بال</h2>
