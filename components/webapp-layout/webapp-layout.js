@@ -28,7 +28,7 @@ const WebappLayout = (props) => {
                         {props.children}
                     </div>
                 </section>
-                <style jsx global>{`body {background: url(../../images/auth/Back.jpg) no-repeat;background-size: cover;background-attachment: fixed;}@media (max-width: 768px){body{background: url(../../images/auth/cloud.png);background-size: contain;background-attachment: fixed;}}`}</style>
+                <style jsx global>{`body {background: url(../../images/auth/Back-min.jpg) no-repeat;background-size: cover;background-attachment: fixed;}@media (max-width: 768px){body{background: url(../../images/auth/cloud.png);background-size: contain;background-attachment: fixed;}}`}</style>
             </main>
         </Fragment>
     )
